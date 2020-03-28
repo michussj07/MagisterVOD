@@ -1,0 +1,111 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-sm-4">
+      <h1>Twój Profil - Edycja</h1>
+    </div>
+    <div class="col-sm-8">
+  <div *ngIf="editForm.dirty" class="alert alert-info">
+    <strong>Informacja: </strong> Dokonałeś zmian. Wszelkie niezapisane zmiany zostaną utracone
+  </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top img-thumbnail" src="{{photoUrl || '../../../../../assets/user.png'}}" alt="{{user.username}}">
+        <div class="card-body">
+          <div class="body">
+            <div>
+              <strong>E-mail:</strong>
+              <p>{{user.email}}</p>
+            </div>
+          </div>
+          <div class="body">
+            <div>
+              <strong>Wiek:</strong>
+              <p>{{user.age}}</p>
+            </div>
+          </div>
+          <div class="body">
+            <div>
+              <strong>Lokalizacja:</strong>
+              <p>{{user.city}}</p>
+            </div>
+          </div>
+          <div class="body">
+            <div>
+              <strong>Kraj:</strong>
+              <p>{{user.country}}</p>
+            </div>
+          </div>
+          <div class="body">
+            <div>
+              <strong>Ostatnia aktywność:</strong>
+              <p>{{user.lastActive | date: 'dd/MM/yyyy HH:mm '}}</p>
+            </div>
+          </div>
+          <div class="body">
+            <div>
+              <strong>Użytkownik Od:</strong>
+              <p>{{user.created | date: 'dd/MM/yyyy'}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+            <button [disabled]="!editForm.dirty" form="editForm" class="btn btn-success btn-block">Zapisz zmiany</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <form #editForm="ngForm" id="editForm" (ngSubmit)="updateUser()">
+      <div class="tab-panel">
+        <tabset class="user-tabset">
+          <tab heading="Dodatkowe informacje">
+            <table class="user-table" >
+              <tr>
+                <td>
+                  <h5>Ulubione filmy</h5>
+                  <textarea class="form-control" name="movies" rows="4" [(ngModel)]="user.movies"></textarea>
+                </td>
+                <td>
+                  <h5>Ulubiona muzyka</h5>
+                  <textarea class="form-control" name="music" rows="4" [(ngModel)]="user.music"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Miasto</h5>
+                  <textarea class="form-control" name="city" rows="1" [(ngModel)]="user.city"></textarea>
+                </td>
+                <td>
+                  <h5>Kraj</h5>
+                  <textarea class="form-control" name="country" rows="1" [(ngModel)]="user.country"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Zainteresowania</h5>
+                  <textarea class="form-control" name="interests" rows="4" [(ngModel)]="user.interests"></textarea>
+                </td>
+                <td>
+                  <h5>Motto życiowe</h5>
+                  <textarea class="form-control" name="motto" rows="4" [(ngModel)]="user.motto"></textarea>
+                </td>
+              </tr>
+            </table>
+          </tab>
+          <tab heading="Zakupione Filmy">
+              W trakcie rozbudowy...
+          </tab>
+          <tab heading="Zdjęcia">
+            <app-photos [photos]="user.photos"
+                        (getUserPhotoChange)="updateMainPhoto($event)"></app-photos>
+          </tab>
+        </tabset>
+      </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+

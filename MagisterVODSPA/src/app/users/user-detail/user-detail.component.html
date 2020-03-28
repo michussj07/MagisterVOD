@@ -1,0 +1,92 @@
+<div class="container mt-3">
+  <div class="row">
+    <h1>Profil {{user.username}}</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top img-thumbnail" src="{{user.photoUrl || '../../../../../assets/user.png'}}" alt="{{user.username}}">
+      <div class="card-body">
+        <div class="body">
+          <div>
+            <strong>E-mail:</strong>
+            <p>{{user.email}}</p>
+          </div>
+        </div>
+      <div class="body">
+        <div>
+          <strong>Wiek:</strong>
+          <p>{{user.age}}</p>
+        </div>
+      </div>
+      <div class="body">
+        <div>
+          <strong>Lokalizacja:</strong>
+          <p>{{user.city}}</p>
+        </div>
+      </div>
+      <div class="body">
+        <div>
+          <strong>Kraj:</strong>
+          <p>{{user.country}}</p>
+        </div>
+      </div>
+      <div class="body">
+        <div>
+          <strong>Ostatnia aktywność:</strong>
+          <p>{{user.lastActive | date: 'dd/MM/yyyy HH:mm '}}</p>
+        </div>
+      </div>
+      <div class="body">
+        <div>
+          <strong>Użytkownik Od:</strong>
+          <p>{{user.created | date: 'dd/MM/yyyy'}}</p>
+        </div>
+      </div>
+      </div>
+      <div class="card-footer">
+        <div class="btn-group d-flex">
+        <button class="btn btn-primary w-100" (click)="selectTab(2)">Wiadomości</button>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset class="user-tabset" #userTabs>
+          <tab heading="Informacje {{user.username}}">
+            <table class="user-table" >
+              <tr>
+                <td class="user-table-td">
+                  <h5>Ulubione filmy</h5>
+                  <p>{{user.movies}}</p>
+                </td>
+                <td class="user-table-td">
+                  <h5>Ulubiona muzyka</h5>
+                  <p>{{user.music}}</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Motto życiowe</h5>
+                  <p>{{user.motto}}</p>
+                </td>
+                <td>
+                  <h5>Zainteresowania</h5>
+                  <p>{{user.interests}}</p>
+                </td>
+              </tr>
+            </table>
+          </tab>
+          <tab heading="Zdjęcia">
+            Tymczasowo niedostępne.
+          </tab>
+          <tab heading="Wiadomości">
+            <app-user-messages [recipientId]="user.id"></app-user-messages>
+          </tab>
+        </tabset>
+      </div>
+    </div>
+
+  </div>
+</div>

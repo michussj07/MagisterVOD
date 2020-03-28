@@ -1,0 +1,73 @@
+<div class="user-list">
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-12">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+      </div>
+      <div class="col-lg-10 col-md-8 col-sm-6">
+
+        <div class="text-center mt-3">
+          <h2>Lista filmów - znalezionych pozycji :  </h2>
+        </div>
+        <!--For dla każdego labela: for=""-->
+        <form class="form-inline" #form="ngForm" (ngSubmit)="loadFilms()" novalidate>
+          <div class="form-group">
+            <label> Rok wydania od</label>
+            <!--<input type="number" class="form-control ml-1" style="width: 70px" id=""
+                   [(ngModel)]="" name="minAge">-->
+          </div>
+          <div class="form-group px-2">
+            <label>Rok wydania do</label>
+            <!--<input type="number" class="form-control ml-1" style="width: 75px" id=""
+                   [(ngModel)]="" name="maxAge">-->
+          </div>
+          <div class="form-group px-2">
+          <label >Cena od</label>
+          <!--<input type="number" class="form-control ml-1" style="width: 70px" id=""
+                 [(ngModel)]="" name="minAge">-->
+        </div>
+          <div class="form-group px-2">
+            <label>Cena do</label>
+            <!--<input type="number" class="form-control ml-1" style="width: 75px" id=""
+                   [(ngModel)]="" name="maxAge">-->
+          </div>
+          <div class="form-group px-2">
+            <label>Gatunek: </label>
+            <!--<select class="form-control ml-1" style="width: 130px" id="gender"
+                    [(ngModel)]="" name="gender">
+              <option *ngFor="let  of " [value]="">
+                Test
+              </option>
+            </select>-->
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-left:10px">Zastosuj filtr</button>
+          <button  type="button" class="btn btn-info" style="margin-left:10px" >Zresetuj filtr</button>
+        </form>
+        <br>
+
+
+        <div class="row">
+          <div *ngFor="let film of films " class="col-lg-2 col-md-4 col-sm-6">
+            <app-film-card [film]="film"></app-film-card>
+          </div>
+          <div class="row">
+            <!--<pagination [boundaryLinks]="true"
+                        [totalItems]="pagination.totalItems"
+                        [itemsPerPage]="pagination.itemsPerPage"
+                        [(ngModel)]="pagination.currentPage"
+                        (pageChanged)="pageChanged($event)"
+                        previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
+            </pagination>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+<form [formGroup]="registerForm" (ngSubmit)="register()">
+  <h2 class="text-center text-primary">Zapisz się</h2>
+  <hr>
+
+  <div class="form-group">
+    <label class="control-label" style="margin-right: 10px;">Jestem: </label>
+    <label class="radio-inline ml-4">
+      <input class="mr-2" type="radio" value="mężczyzna" formControlName="gender">Mężczyzną
+    </label>
+    <label class="radio-inline ml-4">
+      <input class="mr-2" type="radio" value="kobieta" formControlName="gender">Kobietą
+    </label>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Nazwa użytkownika"
+             formControlName="username" [ngClass]="{ 'is-invalid' : registerForm.get('username').errors
+             && registerForm.get('username').touched}">
+    <div class="invalid-feedback">Podaj nazwę użytkownika</div>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="E-mail"
+           formControlName="email" [ngClass]="{ 'is-invalid' : registerForm.get('email').errors
+             && registerForm.get('email').touched}">
+    <div class="invalid-feedback" *ngIf="registerForm.get('email').hasError('required')
+             && registerForm.get('email').touched">
+      Email jest wymagany
+    </div>
+    <div class="invalid-feedback" *ngIf="registerForm.get('email').hasError('email')
+             && registerForm.get('email').touched">
+      Zły format maila
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Data urodzenia"
+           formControlName="dateOfBirth" bsDatepicker [bsConfig]="bsConfig" [ngClass]="{ 'is-invalid' : registerForm.get('dateOfBirth').errors
+             && registerForm.get('dateOfBirth').touched}" >
+    <div class="invalid-feedback">Data urodzenia jest wymagana</div>
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" placeholder="Miasto"
+           formControlName="city" [ngClass]="{ 'is-invalid' : registerForm.get('city').errors
+             && registerForm.get('city').touched}">
+    <div class="invalid-feedback">Misto jest wymagane</div>
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" placeholder="Kraj"
+           formControlName="country" [ngClass]="{ 'is-invalid' : registerForm.get('country').errors
+             && registerForm.get('country').touched}">
+    <div class="invalid-feedback">Kraj jest wymagany</div>
+  </div>
+
+  <div class="form-group">
+    <input type="password" class="form-control" placeholder="Hasło"
+             formControlName="password" [ngClass]="{ 'is-invalid' : registerForm.get('password').errors
+             && registerForm.get('password').touched}">
+    <div class="invalid-feedback" *ngIf="registerForm.get('password').hasError('required')
+             && registerForm.get('password').touched">
+      Hasło jest wymagane
+    </div>
+    <div class="invalid-feedback" *ngIf="registerForm.get('password').hasError('minlength')
+             && registerForm.get('password').touched">
+      Hasło powinienem mieć więcej niż 4 znaki
+    </div>
+    <div class="invalid-feedback" *ngIf="registerForm.get('password').hasError('maxlength')
+             && registerForm.get('password').touched">
+      Hasło powinienem mieć mniej niż 10 znaków
+    </div>
+  </div>
+
+  <div class="form-group">
+    <input type="password" class="form-control" placeholder="Potwierdź hasło"
+             formControlName="confirmPassword" [ngClass]="{ 'is-invalid' : registerForm.get('confirmPassword').errors
+             && registerForm.get('confirmPassword').touched || registerForm.get('confirmPassword').touched
+               && registerForm.hasError('mismatch')}">
+    <div class="invalid-feedback" *ngIf="registerForm.get('confirmPassword').hasError('required')
+             && registerForm.get('confirmPassword').touched">
+      Podaj ponownie hasło
+    </div>
+    <div class="invalid-feedback" *ngIf="registerForm.hasError('mismatch')
+             && registerForm.get('confirmPassword').touched">
+      Hasła nie pasują
+    </div>
+
+  </div>
+
+  <div class="form-group text-center">
+    <button class="btn btn-success" type="submit" [disabled]="!registerForm.valid">Rejestracja</button>
+    <button class="btn btn-default" (click)="cancel()" type="button">Anuluj</button>
+  </div>
+</form>

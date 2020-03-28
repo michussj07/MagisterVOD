@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/_guards/auth.guard.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_guards/prevent-unsaved-changes.guard.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_guards/prevent-unsaved-changes.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_models/Photo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_models/film.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_models/message.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_models/pagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/films-detail.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/films.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/messages.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-detail.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-edit.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-list.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/alertify.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/alertify.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/error.interceptor.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/error.interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/film.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/film.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/background2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/background3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/banerPion.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/banerPoziom.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/main-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vod_world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vod_world1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1YMAnMqiHN37WZpO1pOR05iSBF1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\Github_projects\MagisterVOD\MagisterVODSPA\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\_resolvers" />
+      <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\_models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\film" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="" />
+      <created>1582742255519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582742255519</updated>
+      <workItem from="1582742259857" duration="5093000" />
+      <workItem from="1582826780115" duration="609000" />
+      <workItem from="1582912120690" duration="9176000" />
+      <workItem from="1582989904772" duration="11862000" />
+      <workItem from="1583073958565" duration="4604000" />
+      <workItem from="1583160657218" duration="11926000" />
+      <workItem from="1583233646186" duration="14358000" />
+      <workItem from="1583327071036" duration="1270000" />
+      <workItem from="1583336113836" duration="14351000" />
+      <workItem from="1583404694637" duration="15315000" />
+      <workItem from="1583496054467" duration="10600000" />
+      <workItem from="1583589482213" duration="7357000" />
+      <workItem from="1583668470610" duration="9219000" />
+      <workItem from="1583691414297" duration="5739000" />
+      <workItem from="1583761744595" duration="11711000" />
+      <workItem from="1583871005741" duration="502000" />
+      <workItem from="1583871557133" duration="28000" />
+      <workItem from="1583931287334" duration="16931000" />
+      <workItem from="1584020921291" duration="9830000" />
+      <workItem from="1584379633135" duration="8483000" />
+      <workItem from="1584454834221" duration="872000" />
+      <workItem from="1584541922229" duration="5142000" />
+      <workItem from="1584625211389" duration="896000" />
+      <workItem from="1584636418610" duration="212000" />
+      <workItem from="1584636871715" duration="4734000" />
+      <workItem from="1584723529920" duration="6333000" />
+      <workItem from="1584873863543" duration="26000" />
+      <workItem from="1584877776603" duration="10066000" />
+      <workItem from="1585066860858" duration="2677000" />
+      <workItem from="1585412859640" duration="9090000" />
+      <workItem from="1585421986385" duration="931000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1029" y="182" key="#Inspections" timestamp="1583257487202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1029" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583257487202" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582743077630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582743077630" />
+    <state x="1214" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583074659497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1214" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583074659497" />
+    <state x="1227" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1583264775873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1227" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583264775873" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584636601430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584636601430" />
+    <state x="1170" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583439423830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583439423830" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585421979116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585421979116" />
+    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1585422952826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952826" />
+    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1585422952825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952825" />
+    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1585422952825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952825" />
+    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1585422952826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952826" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583697830584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583697830584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583697830584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1583697830585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583871533381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583871533381" />
+    <state x="1098" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583767065139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1098" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583767065139" />
+    <state x="410" y="130" width="873" height="719" key="find.popup" timestamp="1584637472327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="130" width="873" height="719" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584637472327" />
+    <state x="1303" y="453" width="348" height="298" key="org.angular.cli.generate" timestamp="1583074633589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1303" y="453" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1583074633589" />
+  </component>
+</project>

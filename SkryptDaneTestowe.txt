@@ -1,0 +1,29 @@
+[
+  '{{repeat(25)}}',
+  {
+    Username: '{{firstName("kobieta")}}',
+    Email: {{email([random])}},		
+    Password: 'password',
+    Gender: 'kobieta',			
+    DateOfBirth: '{{date(new Date(1950,0,1), new Date(1999, 11, 31), "YYYY-MM-dd")}}',  
+    Created: '{{date(new Date(2019,1,1), new Date(2019, 7, 10), "YYYY-MM-dd")}}',
+    LastActive: function(){return this.Created; },
+    City: '{{city()}}',
+    Country: '{{country()}}',   
+    Motto: '{{lorem(1, "sentences")}}',  
+    Interests: '{{lorem(1, "paragraphs")}}',
+    Movies: '{{lorem(1, "sentences")}}',
+    Music: '{{lorem(1, "sentences")}}',
+    
+    Photos: [
+        {
+          url: function(num) {
+          return 'https://randomuser.me/api/portraits/women/' + num.integer(1,99) + '.jpg';		
+        },
+        isMain: true,
+        DateAdded:'{{date(new Date(2019,1,1), new Date(2019, 7, 10), "YYYY-MM-dd")}}',
+        description: '{{lorem()}}'
+      }
+    ]
+  }
+]

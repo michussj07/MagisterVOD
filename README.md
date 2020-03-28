@@ -1,0 +1,2 @@
+# MagisterVOD
+ My thesis project

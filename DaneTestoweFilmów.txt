@@ -1,0 +1,76 @@
+1.https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg
+Skazani na Shawshank 
+1994 
+USA 
+Dramat 
+Lektor
+9.90 
+9,3/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2018-12-01 
+2020-04-01
+
+2.https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg
+Nietykalni 
+2011 
+Francja 
+Dramat 
+Napisy
+9.90 
+8,5/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2019-11-12 
+2020-04-20
+
+3.https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg
+Życie jest piękne 
+1997 
+Włochy 
+Dramat 
+Lektor i napisy
+6.90 
+8,6/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2020-02-01 
+2021-01-01
+
+4.https://m.media-amazon.com/images/M/MV5BMmZhZjQ3ZjktN2M3Mi00OWI1LThhMGMtNTI5NTEwZjgxZjU5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR2,0,182,268_AL_.jpg
+Bogowie 
+2014 
+Polska 
+Biograficzny 
+Oryginalny
+6.90 
+7,7/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2017-07-10 
+2022-01-20
+
+5.https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg
+Parasite 
+2019 
+Korea Południowa
+Komedia
+Napisy i bez napisów
+19.90
+8,6/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2020-03-20
+2022-05-31
+************************************************************
+
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('1', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/6925401.3_xyvjfq.jpg', 'Skazani na Shawshank', '1994', 'USA', 'Dramat', '9.90', '2018-12-01', '2020-04-01', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lektor', '9,3/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('2', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7441162.3_pjotxh.jpg', 'Nietykalni', '2011', 'Francja', 'Dramat', '9.90', '2019-11-12', '2020-04-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy', '8,5/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('3', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7520031.3_w5vnxo.jpg', 'Życie jest piękne', '1997', 'Włochy', 'Dramat', '6.90', '2020-02-01', '2021-01-01', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lektor i napisy', '8,6/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('4', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7632114.3_ouwb8h.jpg', 'Bogowie', '2014', 'Polska', 'Biograficzny', '6.90', '2017-07-10', '2022-01-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Oryginalny', '7,7/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('5', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7895390.3_ptxx1i.jpg', 'Parasite', '2019', 'Korea Południowa', 'Komedia', '19.90', '2020-03-20', '2022-05-31', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy i bez napisów', '8,6/10');

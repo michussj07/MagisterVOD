@@ -1,0 +1,67 @@
+<div class="container mt-3">
+  <div class="row">
+    <h1>Strona filmu {{film?.title}}</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img img-thumbnail" src="{{film?.filmPhoto}}" alt="{{film?.title}}">
+        <div class="card-body">
+          <div>
+            <strong>Rok wydania</strong>
+            <p>{{film?.year}}</p>
+          </div>
+          <div>
+            <strong>Kraj:</strong>
+            <p>{{film?.country}}</p>
+          </div>
+          <div>
+            <strong>Gatunek:</strong>
+            <p>{{film?.genre}}</p>
+          </div>
+          <div>
+            <strong>Cena</strong>
+            <p>{{film?.price}}0 zł</p>
+          </div>
+          <div>
+            <strong>Film dostępny od</strong>
+            <p>{{film?.created | date:'dd/MM/yyyy'}}</p>
+          </div>
+          <div>
+            <strong>Film dostępny do</strong>
+            <p>{{film?.toDelete | date:'dd/MM/yyyy'}}</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="btn-group d-flex">
+            <button class="btn btn-success">Zakup film</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+        <table class="user-table">
+          <tr>
+            <td class="user-table-td">
+              <h5>Wersja językowa</h5>
+              <p>{{film?.languageVersion}}</p>
+            </td>
+            <td class="user-table-td">
+              <h5>Ocena filmu</h5>
+              <p>{{film?.rating}} <img src="../../../assets/images.jpg" alt="imdb"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="user-table-td">
+              <h5>Opis Fabuły</h5>
+              <p>{{film?.description}}</p>
+            </td>
+            <td class="user-table-td">
+              <h5>Obsada filmu</h5>
+              <p>{{film?.cast}}</p>
+            </td>
+          </tr>
+        </table>
+    </div>
+  </div>
+</div>
