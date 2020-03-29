@@ -8,7 +8,7 @@ namespace MagisterVOD.API.Models
         public int Id { get; set; }
         public string FilmPhoto { get; set; }        
         public string Title { get; set; }  
-        public float Price { get; set; }
+        public double Price { get; set; }
 
         //Zakładka Więcej
         public int Year { get; set; }
@@ -20,6 +20,6 @@ namespace MagisterVOD.API.Models
         public string Cast { get; set; }
         public DateTime Created { get; set; }
         public DateTime ToDelete { get; set; }
-        
+
     }
 }

@@ -1,4 +1,4 @@
-<div class="user-list">
+<div class="film-list">
   <div class="container mt-4">
     <div class="row">
       <div class="col-lg-12">
@@ -21,27 +21,27 @@
           <div class="form-group">
             <label> Rok wydania od</label>
             <!--<input type="number" class="form-control ml-1" style="width: 70px" id=""
-                   [(ngModel)]="" name="minAge">-->
+                   [(ngModel)]="" name="minYear">-->
           </div>
           <div class="form-group px-2">
             <label>Rok wydania do</label>
             <!--<input type="number" class="form-control ml-1" style="width: 75px" id=""
-                   [(ngModel)]="" name="maxAge">-->
+                   [(ngModel)]="" name="maxYear">-->
           </div>
           <div class="form-group px-2">
           <label >Cena od</label>
           <!--<input type="number" class="form-control ml-1" style="width: 70px" id=""
-                 [(ngModel)]="" name="minAge">-->
+                 [(ngModel)]="" name="minPrice">-->
         </div>
           <div class="form-group px-2">
             <label>Cena do</label>
             <!--<input type="number" class="form-control ml-1" style="width: 75px" id=""
-                   [(ngModel)]="" name="maxAge">-->
+                   [(ngModel)]="" name="maxPrice">-->
           </div>
           <div class="form-group px-2">
             <label>Gatunek: </label>
             <!--<select class="form-control ml-1" style="width: 130px" id="gender"
-                    [(ngModel)]="" name="gender">
+                    [(ngModel)]="" name="genre">
               <option *ngFor="let  of " [value]="">
                 Test
               </option>
@@ -58,13 +58,13 @@
             <app-film-card [film]="film"></app-film-card>
           </div>
           <div class="row">
-            <!--<pagination [boundaryLinks]="true"
+            <pagination [boundaryLinks]="true"
                         [totalItems]="pagination.totalItems"
                         [itemsPerPage]="pagination.itemsPerPage"
                         [(ngModel)]="pagination.currentPage"
                         (pageChanged)="pageChanged($event)"
                         previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
-            </pagination>-->
+            </pagination>
           </div>
         </div>
       </div>

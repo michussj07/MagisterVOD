@@ -2,115 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/_guards/auth.guard.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_guards/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_guards/prevent-unsaved-changes.guard.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_guards/prevent-unsaved-changes.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_models/Photo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_models/film.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_models/message.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_models/pagination.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_models/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/films-detail.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/films.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/messages.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-detail.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-edit.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_resolvers/user-list.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/alertify.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/alertify.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/error.interceptor.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/error.interceptor.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/film.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/film.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/user.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_services/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-card/film-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/film-detail/film-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/film/films/films.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/homelog/homelog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/messages/messages.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/register.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/photos/photos.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-card/user-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-detail/user-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-edit/user-edit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-ist/user-ist.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/user-messages/user-messages.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/background3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/banerPion.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/banerPoziom.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/main-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vod_world.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vod_world1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/UserParams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/UserParams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/project.razor.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +25,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_INSPECTION" />
@@ -222,6 +124,7 @@
       <workItem from="1585066860858" duration="2677000" />
       <workItem from="1585412859640" duration="9090000" />
       <workItem from="1585421986385" duration="931000" />
+      <workItem from="1585487127839" duration="3211000" />
     </task>
     <servers />
   </component>
@@ -265,22 +168,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585421979116" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1585422952826">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1585491672343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952826" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1585422952825">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585491672343" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1585491672343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952825" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1585422952825">
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585491672343" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1585491672342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952825" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1585422952826">
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585491672342" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1585491672343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585422952826" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585491672343" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583697830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

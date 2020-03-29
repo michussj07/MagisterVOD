@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../../_models/user';
 import { Pagination, PaginationResult } from '../../_models/pagination';
 import { AuthService } from '../../_services/auth.service';
 import { ActivatedRoute } from '@angular/router';
@@ -15,7 +14,7 @@ import {Film} from '../../_models/film';
 export class FilmsComponent implements OnInit {
 
   films: Film[];
-  // pagination: Pagination;
+  pagination: Pagination;
 
   constructor(private authService: AuthService,
               private filmService: FilmService,
@@ -23,27 +22,27 @@ export class FilmsComponent implements OnInit {
               private alertify: AlertifyService) { }
 
   ngOnInit() {
-/*    this.route.data.subscribe(data => {
-      this.users = data.users.result;
+    this.route.data.subscribe(data => {
+      this.films = data.users.result;
       this.pagination = data.users.pagination;
-    });*/
-  this.loadFilms();
+    });
+  // this.loadFilms();
   }
 
   loadFilms() {
-    this.filmService.getFilms()
-      .subscribe((films : Film[]) => {
-        this.films = films;
-        // this.pagination = res.pagination;
+    this.filmService.getFilms(this.pagination.currentPage, this.pagination.itemsPerPage)
+      .subscribe((res : PaginationResult<Film[]>) => {
+        this.films = res.result;
+        this.pagination = res.pagination;
       }, error => {
         this.alertify.error(error);
       });
   }
 
-  /*pageChanged(event: any): void {
+  pageChanged(event: any): void {
     this.pagination.currentPage = event.page;
-    this.loadUsers();
-  }*/
+    this.loadFilms();
+  }
 
   /*resetFilters() {
 

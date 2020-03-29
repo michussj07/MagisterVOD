@@ -28,8 +28,6 @@ namespace MagisterVOD.API.Models
 
         //Dodatkowe informacje użytkownika (Zakładka Zdjęcia)
         public ICollection<Photo> Photos { get; set; }
-        // public ICollection<Like> UserLikes { get; set; }    
-        // public ICollection<Like> UserIsLiked { get; set; } 
         public ICollection<Message> MessagesSent { get; set; } 
         public ICollection<Message> MessagesReceived { get; set; }
     }
