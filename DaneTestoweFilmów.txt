@@ -1,4 +1,4 @@
-1.https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg
+1.https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/6925401.3_xyvjfq.jpg
 Skazani na Shawshank 
 1994 
 USA 
@@ -11,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu
 2018-12-01 
 2020-04-01
 
-2.https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg
+2.https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7441162.3_pjotxh.jpg
 Nietykalni 
 2011 
 Francja 
@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu
 2019-11-12 
 2020-04-20
 
-3.https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg
+3.https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7520031.3_w5vnxo.jpg
 Życie jest piękne 
 1997 
 Włochy 
@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu
 2020-02-01 
 2021-01-01
 
-4.https://m.media-amazon.com/images/M/MV5BMmZhZjQ3ZjktN2M3Mi00OWI1LThhMGMtNTI5NTEwZjgxZjU5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR2,0,182,268_AL_.jpg
+4.https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7632114.3_ouwb8h.jpg
 Bogowie 
 2014 
 Polska 
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu
 2017-07-10 
 2022-01-20
 
-5.https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg
+5.https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7895390.3_ptxx1i.jpg
 Parasite 
 2019 
 Korea Południowa
@@ -62,6 +62,97 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
 2020-03-20
 2022-05-31
+
+6.https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/unnamed_lwqctn.jpg
+Coco
+2017
+USA
+Animacja
+Dubbing
+9.90
+8,3/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2020-04-01
+2022-06-25
+
+7.https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/4qwq_fljevq.jpg
+Monty Python i Święty Graal
+1975
+Wielka Brytania
+Komedia
+Lektor
+6.90
+8,0/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2019-01-01
+2020-12-31
+
+8.https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/7556850.3_ljr3md.jpg
+Koneser
+2013
+Włochy
+Dramat
+Napisy
+3.90
+7,9/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2018-12-17
+2020-12-01
+
+9.https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/p-gos-125-siedmiu-samurajow_lq8fga.jpg
+Siedmiu Samurajów
+1954
+Japonia
+Dramat
+Napisy lub bez napisów
+12.90
+8,0/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2018-12-17
+2022-01-01
+
+10.https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/poster003-600_ikrx00.jpg
+Księżniczka Mononoke
+1997
+Japonia
+Anime
+Napisy
+9.90
+8,0/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2019-01-01
+2021-01-30
+
+11.https://res.cloudinary.com/dhadinc61/image/upload/v1586886271/miasto-boga__300_427_qjtqp5.jpg
+Miasto Boga
+2002
+Brazylia
+Thriller
+Napisy
+9.90
+8,0/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2019-01-01
+2021-06-15
+
+12.https://res.cloudinary.com/dhadinc61/image/upload/v1586886271/29.08bd37_tokaqr.jpg
+Twój Vincent
+2017
+Polska
+Animacja
+Dubbing lub napisy
+10.90
+8,0/10
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.
+2018-12-17
+2021-12-31
 ************************************************************
 
 
@@ -74,3 +165,17 @@ INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genr
 INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('4', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7632114.3_ouwb8h.jpg', 'Bogowie', '2014', 'Polska', 'Biograficzny', '6.90', '2017-07-10', '2022-01-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Oryginalny', '7,7/10');
 
 INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('5', 'https://res.cloudinary.com/dhadinc61/image/upload/v1585415387/7895390.3_ptxx1i.jpg', 'Parasite', '2019', 'Korea Południowa', 'Komedia', '19.90', '2020-03-20', '2022-05-31', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy i bez napisów', '8,6/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('6', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/unnamed_lwqctn.jpg', 'Coco', '2017', 'USA', 'Animacja', '9.90', '2020-04-01', '2022-06-25', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Dubbing', '8,3/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('7', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/4qwq_fljevq.jpg', 'Monty Python i Święty Graal', '1975', 'Wielka Brytania', 'Komedia', '6.90', '2019-01-01', '2020-12-31', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lektor', '8,0/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('8', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/7556850.3_ljr3md.jpg', 'Koneser', '2013', 'Włochy', 'Deamat', '3.90', '2018-12-17', '2020-12-01', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy', '7,9/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('9', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/p-gos-125-siedmiu-samurajow_lq8fga.jpg', 'Siedmiu Samurajów', '1954', 'Japonia', 'Dramat', '12.90', '2018-12-17', '2022-01-01', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy i bez napisów', '8,0/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('10', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586885396/poster003-600_ikrx00.jpg', 'Księżniczka Mononoke', '1997', 'Japonia', 'Anime', '9.90', '2019-01-01', '2021-01-30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy', '8,0/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('11', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586886271/miasto-boga__300_427_qjtqp5.jpg', 'Miasto Boga', '2002', 'Brazylia', 'Thriller', '9.90', '2019-01-01', '2021-06-15', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Napisy', '8,0/10');
+
+INSERT INTO "main"."Films" ("Id", "FilmPhoto", "Title", "Year", "Country", "Genre", "Price", "Created", "ToDelete", "Cast", "Description", "LanguageVersion", "Rating") VALUES ('12', 'https://res.cloudinary.com/dhadinc61/image/upload/v1586886271/29.08bd37_tokaqr.jpg', 'Twój Vincent', '2017', 'Polska', 'Animacja', '10.90', '2018-12-17', '2021-12-31', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur turpis eu ligula dignissim eleifend.', 'Dubbing lub napisy', '8,0/10');

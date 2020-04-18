@@ -2,20 +2,20 @@ namespace MagisterVOD.API.Helpers
 {
     public class FilmParams
     {
-        public const int MaxPageSize = 48;
-        public int PageNumber { get; set; } = 1;
-        private int pageSize = 12;
-        public int PageSize
+        public const int MaxPageSizes = 48;
+        public int PageNumbers { get; set; } = 1;
+        private int pageSizes = 24;
+        public int PageSizes
         {
-            get { return pageSize; }
-            set { pageSize = (value > MaxPageSize) ? MaxPageSize : value; }
+            get { return pageSizes; }
+            set { pageSizes = (value > MaxPageSizes) ? MaxPageSizes : value; }
         }
 
-        public int FilmId { get; set; }
-        public string Genre { get; set; }
-        public int MinYear { get; set; } = 1918;
-        public int MaxYear { get; set; } = 2020;
-        public double MinPrice { get; set; } = 3.90;
-        public double MaxPrice { get; set; } = 19.90;
+        // public int FilmId { get; set; }
+        // public string Genre { get; set; }
+        // public int Year { get; set; }
+        // public double Price { get; set; }
+        // public double OrderBy { get; set; }
+
     }
 }

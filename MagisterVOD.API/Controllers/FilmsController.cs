@@ -18,6 +18,7 @@ namespace MagisterVOD.API.Controllers
     {
         private readonly IFilmRepository _repo;
         private readonly IMapper _mapper;
+
         public FilmsController(IFilmRepository repo, IMapper mapper)
         {
             _repo = repo;
@@ -26,23 +27,24 @@ namespace MagisterVOD.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetFilms([FromQuery] FilmParams filmParams)
-        {
-            var currentFilmId = int.Parse(Film.FindFirst(ClaimTypes.NameIdentifier).Value);
-            var filmFromRepo = await _repo.GetFilm(currentFilmId);
+        public async Task<IActionResult> GetFilms([FromQuery]FilmParams filmParams)
+        {   
+            // var filmFromRepo = await _repo.GetFilm(filmParams.FilmId);
 
-            filmParams.FilmId = currentFilmId;
-            
+            // if (string.IsNullOrEmpty(filmParams.Genre))
+            // {
+            //     filmParams.Genre = filmFromRepo.Genre;
+            // }
             var films = await _repo.GetFilms(filmParams);
 
             var filmsToReturn = _mapper.Map<IEnumerable<FilmForListDto>>(films);
 
-            Response.AddPagination(films.CurrentPage, films.PageSize, films.TotalCount, films.TotalPages);
+            Response.AddFilmPagination(films.CurrentPages, films.PageSizes, films.TotalCounts, films.TotalPage);
 
             return Ok(filmsToReturn);
         }
 
-        [HttpGet("{id}", Name= "GetFilm")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetFilm(int id)
         {
             var film = await _repo.GetFilm(id);
@@ -51,6 +53,8 @@ namespace MagisterVOD.API.Controllers
 
             return Ok(filmToReturn);
         }
+
+
 
     }
 }

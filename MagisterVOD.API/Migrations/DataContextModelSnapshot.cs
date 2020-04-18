@@ -35,7 +35,7 @@ namespace MagisterVOD.API.Migrations
 
                     b.Property<string>("LanguageVersion");
 
-                    b.Property<float>("Price");
+                    b.Property<string>("Price");
 
                     b.Property<string>("Rating");
 

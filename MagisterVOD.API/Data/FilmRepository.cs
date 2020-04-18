@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using MagisterVOD.API.Helpers;
 using MagisterVOD.API.Models;
 using Microsoft.EntityFrameworkCore;
+using PortalRandkowy.API.Helpers;
 
 namespace MagisterVOD.API.Data
 {
@@ -22,22 +23,13 @@ namespace MagisterVOD.API.Data
             return film;
         }
 
-        public async Task<PagedList<Film>> GetFilms(FilmParams filmParams)
+        public async Task<PagedFilmList<Film>> GetFilms(FilmParams filmParams)
         {
-            var films = _context.Films.AsQueryable();
+            var films = _context.Films;
 
-            films = films.Where(f => f.Id != filmParams.FilmId);
-            films = films.Where(f => f.Genre == filmParams.Genre);
+         return await PagedFilmList<Film>.CreateListAsync(films, filmParams.PageNumbers, filmParams.PageSizes);
 
-            if (filmParams.MinYear != 1918 || filmParams.MaxYear != 2020)
-            {
-                var minDate = DateTime.Today.AddYears(-filmParams.MaxYear -1);
-                var maxDate = DateTime.Today.AddYears(-filmParams.MinYear);
-                // films = films.Where(f => f.Year >= minDate && f.Year <= maxDate);
-            }
-
-
-            return await PagedList<Film>.CreateListAsync(films, filmParams.PageNumber, filmParams.PageSize);
+            
         }
     }
 }

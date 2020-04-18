@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img img-thumbnail" src="{{film?.filmPhoto}}" alt="{{film?.title}}">
+        <img class="card-img img-thumbnail" src="{{film?.filmPhoto || '../../../../assets/movie.jpg'}}" alt="{{film?.title}}">
         <div class="card-body">
           <div>
             <strong>Rok wydania</strong>
@@ -34,7 +34,7 @@
         </div>
         <div class="card-footer">
           <div class="btn-group d-flex">
-            <button class="btn btn-success">Zakup film</button>
+            <button class="btn btn-success" (click)="openDialog()">Zakup film</button>
           </div>
         </div>
       </div>
@@ -64,4 +64,7 @@
         </table>
     </div>
   </div>
+</div>
+<div class="blockquote-footer text-center">
+  <p>2020 Thesis Project. Autor: Michał Jelonek</p>
 </div>

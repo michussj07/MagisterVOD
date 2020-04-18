@@ -9,10 +9,6 @@ import {Film} from '../_models/film';
 @Injectable()
 export class FilmsDetailResolver implements Resolve<Film[]> {
 
-  /*pageNumber = 1;
-  pageSize = 12;
-  filmsParam = 'UserFilms';*/
-
   constructor(private filmService: FilmService,
               private router: Router,
               private alertify: AlertifyService) {}

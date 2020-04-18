@@ -1,19 +1,18 @@
-<div class="container mt-3">
-
+<div class="container mt-4">
   <div class="row">
-    <h1>Strona w trakcie rozbudowy</h1>
-  </div>
-  <div class="row">
-    <h2>Ostatnio dodane</h2>
-    <p>Tu będzie lista świeżo dodanych filmów</p>
-  </div>
-  <div class="row">
-    <h2>Najpopularniejsze filmy</h2>
-    <p>Tu będzie lista najczęściej kupowanych filmów</p>
-  </div>
-  <div class="row">
-    <h2>Ostatnia szansa</h2>
-    <p>Tu będzie lista filmów, któe mają zniknąć z bazy</p>
-  </div>
-
+      <div class="text-center">
+        <h1>Ostatnio dodane</h1>
+      </div>
+      <div class="row">
+        <div *ngFor="let film of films " class="col-lg-2 col-md-4 col-sm-6">
+          <app-film-card [film]="film"></app-film-card>
+        </div>
+      </div>
+    <h1>Ostatnia szansa</h1>
+      <div class="row">
+        <div *ngFor="let film of films " class="col-lg-2 col-md-4 col-sm-6">
+          <app-film-card [film]="film"></app-film-card>
+        </div>
+      </div>
+    </div>
 </div>

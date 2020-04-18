@@ -7,7 +7,7 @@
   </div>
 
   <div class="card-img-wrapper">
-    <img src="{{film.filmPhoto}}" class="card-img-top" alt="{{film.title}}">
+    <img src="{{film.filmPhoto || '../../../../assets/movie.jpg'}}" class="card-img-top" alt="{{film.title}}">
     <ul class="list-inline text-center user-icons animate">
       <li class="list-inline-item">
         <button class="btn btn-success btn-sm" [routerLink]="['/filmy/', film.id]" routerLinkActive="router-link-active">
@@ -15,7 +15,7 @@
         </button>
       </li>
       <li class="list-inline-item">
-        <button class="btn btn-success btn-sm" >
+        <button class="btn btn-success btn-sm" (click)="openDialog()" >
           <i class="fa fa-shopping-basket"></i>
         </button>
       </li>

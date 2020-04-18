@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Zakup film</h2>
+<mat-dialog-content>Czy na pewno chcesz zakupić ten film?</mat-dialog-content>
+<br>
+<mat-dialog-actions>
+  <button type="button" class="btn btn-danger" (click)="clickMessage()" mat-button mat-dialog-close="true">Tak</button>
+  <button type="button" class="btn btn-warning" (click)="rejectMessage()" mat-button  mat-dialog-close="false">Nie</button>
+</mat-dialog-actions>

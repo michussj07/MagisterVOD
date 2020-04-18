@@ -16,6 +16,7 @@ import {AboutComponent} from './about/about.component';
 import {HomelogComponent} from './homelog/homelog.component';
 import {FilmDetailComponent} from './film/film-detail/film-detail.component';
 import {FilmsDetailResolver} from './_resolvers/films-detail.resolver';
+import {FaqComponent} from './faq/faq.component';
 
 
 
@@ -34,6 +35,7 @@ export const appRoutes: Routes = [
       { path: 'filmy', component: FilmsComponent, resolve:{user: FilmsResolver}},
       { path: 'filmy/:id', component: FilmDetailComponent, resolve:{user: FilmsDetailResolver}},
       { path: 'wiadomosci', component: MessagesComponent, resolve:{messages: MessagesResolver}},
+      { path: 'faq', component: FaqComponent},
     ]
   },
   { path: '**', redirectTo: '', pathMatch: 'full'},

@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {Film} from '../_models/film';
+import {FilmService} from '../_services/film.service';
+import {ActivatedRoute} from '@angular/router';
+import {AlertifyService} from '../_services/alertify.service';
 
 @Component({
   selector: 'app-homelog',
@@ -7,9 +11,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomelogComponent implements OnInit {
 
-  constructor() { }
+  films: Film[];
 
-  ngOnInit(): void {
+  constructor(private filmService: FilmService,
+              private route: ActivatedRoute,
+              private alertify: AlertifyService) { }
+
+  ngOnInit() {
+    this.loadFilms();
   }
+
+  loadFilms() {
+    this.filmService.getFilms().subscribe(( films: Film[]) => {
+      this.films = films;
+    }, error => {
+      this.alertify.error(error);
+    });
+  }
+
+
 
 }

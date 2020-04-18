@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import {environment} from '../../environments/environment';
-import {HttpClient, HttpParams} from '@angular/common/http';
+import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 import {Film} from '../_models/film';
 import {Observable} from 'rxjs';
 import {PaginationResult} from '../_models/pagination';
 import {map} from 'rxjs/operators';
+
 
 @Injectable({
   providedIn: 'root'
@@ -15,28 +16,10 @@ export class FilmService {
 
   constructor(private http: HttpClient) { }
 
-  getFilms(page?, itemsPerPage?): Observable<PaginationResult<Film[]>> {
+  getFilms(): Observable<Film[]> {
 
-    const paginationResult: PaginationResult<Film[]> = new PaginationResult<Film[]>();
-    let params = new HttpParams();
 
-    if (page != null && itemsPerPage != null) {
-      params = params.append('pageNumber', page);
-      params = params.append('pageSize', itemsPerPage);
-    }
-
-    return this.http.get<Film[]>(this.baseUrl + 'films', { observe: 'response', params })
-  .pipe(
-      map(response => {
-        paginationResult.result = response.body;
-
-        if (response.headers.get('Pagination') != null) {
-          paginationResult.pagination = JSON.parse(response.headers.get('Pagination'));
-        }
-
-        return paginationResult;
-      })
-    );
+    return this.http.get<Film[]>(this.baseUrl + 'films');
   }
 
   getFilm(id: number): Observable<Film> {

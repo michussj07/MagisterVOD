@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {User} from '../../_models/user';
 import {Film} from '../../_models/film';
 
 import {AlertifyService} from '../../_services/alertify.service';
 import {FilmService} from '../../_services/film.service';
+import {BuyDialogComponent} from '../buy-dialog/buy-dialog.component';
+import {MatDialog} from '@angular/material';
 
 @Component({
   selector: 'app-film-detail',
@@ -17,7 +18,8 @@ export class FilmDetailComponent implements OnInit {
 
   constructor(private filmService: FilmService,
               private alertify: AlertifyService,
-              private route: ActivatedRoute) {}
+              private route: ActivatedRoute,
+              private dialog: MatDialog) {}
 
   ngOnInit() {
     this.loadUser();
@@ -30,6 +32,12 @@ export class FilmDetailComponent implements OnInit {
       }, error => {
         this.alertify.error(error);
       });
+  }
+
+  openDialog() {
+    let dialogRef = this.dialog.open(BuyDialogComponent);
+
+    dialogRef.afterClosed().subscribe();
   }
 
 }

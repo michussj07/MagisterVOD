@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Film} from '../../_models/film';
+import {BuyDialogComponent} from '../buy-dialog/buy-dialog.component';
+import {MatDialog} from '@angular/material';
 
 @Component({
   selector: 'app-film-card',
@@ -10,9 +12,15 @@ export class FilmCardComponent implements OnInit {
 
   @Input() film: Film;
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+  }
+
+  openDialog() {
+    let dialogRef = this.dialog.open(BuyDialogComponent);
+
+    dialogRef.afterClosed().subscribe();
   }
 
 }

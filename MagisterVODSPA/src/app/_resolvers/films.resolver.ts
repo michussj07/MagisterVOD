@@ -9,16 +9,12 @@ import {Film} from '../_models/film';
 @Injectable()
 export class FilmsResolver implements Resolve<Film[]> {
 
-  pageNumber = 1;
-  pageSize = 10;
-  filmsParam = 'UserFilms';
-
   constructor(private filmService: FilmService,
               private router: Router,
               private alertify: AlertifyService) {}
 
   resolve(route: ActivatedRouteSnapshot): Observable<Film[]> {
-    return this.filmService.getFilms(this.pageNumber, this.pageSize).pipe(
+    return this.filmService.getFilms().pipe(
       catchError(error => {
         this.alertify.error('Problem z pobraniem danych');
         this.router.navigate(['']);

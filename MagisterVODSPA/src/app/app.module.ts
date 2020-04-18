@@ -39,6 +39,10 @@ import {FilmService} from './_services/film.service';
 import { FilmCardComponent } from './film/film-card/film-card.component';
 import { FilmDetailComponent } from './film/film-detail/film-detail.component';
 import {FilmsDetailResolver} from './_resolvers/films-detail.resolver';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BuyDialogComponent } from './film/buy-dialog/buy-dialog.component';
+import {MatButtonModule, MatCardModule, MatDialogModule, MatExpansionModule, MatFormFieldModule, MatTabsModule} from '@angular/material';
+import { FaqComponent } from './faq/faq.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -62,6 +66,8 @@ export function tokenGetter() {
     HomelogComponent,
     FilmCardComponent,
     FilmDetailComponent,
+    BuyDialogComponent,
+    FaqComponent,
 
   ],
   imports: [
@@ -84,6 +90,14 @@ export function tokenGetter() {
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
+    CarouselModule.forRoot(),
+    MatButtonModule,
+    MatCardModule,
+    MatDialogModule,
+    MatTabsModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+
   ],
   providers: [
     AuthService,
@@ -100,6 +114,9 @@ export function tokenGetter() {
     MessagesResolver,
     FilmService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    BuyDialogComponent,
+  ],
 })
 export class AppModule { }

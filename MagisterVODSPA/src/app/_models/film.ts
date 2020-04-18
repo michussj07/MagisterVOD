@@ -3,7 +3,7 @@ export interface Film {
   filmPhoto: string;
   title: string;
   price: string;
-  year: bigint;
+  year: number;
   country: string;
   genre: string;
   languageVersion: string;
