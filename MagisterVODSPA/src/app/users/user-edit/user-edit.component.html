@@ -94,11 +94,8 @@
               </tr>
             </table>
           </tab>
-          <tab heading="Zakupione Filmy">
-              W trakcie rozbudowy...
-          </tab>
           <tab heading="Zdjęcia">
-            <app-photos [photos]="user.photos"
+            <app-photos class="" [photos]="user.photos"
                         (getUserPhotoChange)="updateMainPhoto($event)"></app-photos>
           </tab>
         </tabset>

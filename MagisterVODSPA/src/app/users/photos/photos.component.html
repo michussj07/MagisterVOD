@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col-sm-2" *ngFor="let photo of photos">
+<div class="col-sm-2 ml-3" *ngFor="let photo of photos">
   <img src="{{photo.url}}" alt="{{photo.description}}" class="img-thumbnail p-1">
   <div class="text-center">
   <button type="button" class="btn btn-sm  mr-1" (click)="setMainPhoto(photo)"
@@ -10,9 +10,9 @@
 </div>
 </div>
 
-<div class="row mt-3">
-  <div class="col-md-3">
-    <h3>Wybierz plik</h3>
+<div class="row mt-3 ml-2">
+  <div class="col-md-3 ">
+    <h3 class="text-center">Wybierz plik</h3>
 
     <div ng2FileDrop
          [ngClass]="{'nv-file-over': hasBaseDropZoneOver}"
@@ -66,7 +66,4 @@
       </button>
     </div>
   </div>
-</div>
-<div class="blockquote-footer text-center">
-  <p>2020 Thesis Project. Autor: Michał Jelonek</p>
 </div>

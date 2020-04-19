@@ -4,15 +4,120 @@
         <h1>Ostatnio dodane</h1>
       </div>
       <div class="row">
-        <div *ngFor="let film of films " class="col-lg-2 col-md-4 col-sm-6">
-          <app-film-card [film]="film"></app-film-card>
+        <div *ngFor="let film of films | orderBy: order : true"  class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card mb-4">
+
+            <div class="card-body p-2">
+              <h6 class="card-title text-center mb-1">
+                {{film.title}},
+              </h6>
+              <h6 class="card-title text-center mb-1">{{film.year}}</h6>
+            </div>
+
+            <div class="card-img-wrapper">
+              <img src="{{film.filmPhoto || '../../../../assets/movie.jpg'}}" class="card-img-top" alt="{{film.title}}">
+              <ul class="list-inline text-center user-icons animate">
+                <li class="list-inline-item">
+                  <button class="btn btn-success btn-sm" [routerLink]="['/filmy/', film.id]" routerLinkActive="router-link-active">
+                    <i class="fa fa-film"></i>
+                  </button>
+                </li>
+                <li class="list-inline-item">
+                  <button class="btn btn-success btn-sm" (click)="openDialog()" >
+                    <i class="fa fa-shopping-basket"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-body p-0">
+              <p class="card-text text-center text-muted">Dodane: {{film.created | date:'dd/MM/yyyy'}}</p>
+              <p class="card-text text-center text-muted">{{film.price}}0 zł</p>
+            </div>
+
+          </div>
         </div>
       </div>
     <h1>Ostatnia szansa</h1>
       <div class="row">
-        <div *ngFor="let film of films " class="col-lg-2 col-md-4 col-sm-6">
+        <div *ngFor="let film of films | orderBy: order1 " class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card mb-4">
+
+            <div class="card-body p-2">
+              <h6 class="card-title text-center mb-1">
+                {{film.title}},
+              </h6>
+              <h6 class="card-title text-center mb-1">{{film.year}}</h6>
+            </div>
+
+            <div class="card-img-wrapper">
+              <img src="{{film.filmPhoto || '../../../../assets/movie.jpg'}}" class="card-img-top" alt="{{film.title}}">
+              <ul class="list-inline text-center user-icons animate">
+                <li class="list-inline-item">
+                  <button class="btn btn-success btn-sm" [routerLink]="['/filmy/', film.id]" routerLinkActive="router-link-active">
+                    <i class="fa fa-film"></i>
+                  </button>
+                </li>
+                <li class="list-inline-item">
+                  <button class="btn btn-success btn-sm" (click)="openDialog()" >
+                    <i class="fa fa-shopping-basket"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-body p-0">
+              <p class="card-text text-center text-muted">Usuwane: {{film.toDelete | date:'dd/MM/yyyy'}}</p>
+              <p class="card-text text-center text-muted">{{film.price}}0 zł</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <h1>Filmy do refleksji</h1>
+      <div class="row">
+        <div *ngFor="let film of films | filterBy: filter " class="col-lg-2 col-md-4 col-sm-6">
           <app-film-card [film]="film"></app-film-card>
         </div>
       </div>
+    <h1>Filmowe hity!</h1>
+    <div class="row">
+      <div *ngFor="let film of films | filterBy: filter1 " class="col-lg-2 col-md-4 col-sm-6">
+        <div class="card mb-4">
+
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mb-1">
+              {{film.title}},
+            </h6>
+            <h6 class="card-title text-center mb-1">{{film.year}}</h6>
+          </div>
+
+          <div class="card-img-wrapper">
+            <img src="{{film.filmPhoto || '../../../../assets/movie.jpg'}}" class="card-img-top" alt="{{film.title}}">
+            <ul class="list-inline text-center user-icons animate">
+              <li class="list-inline-item">
+                <button class="btn btn-success btn-sm" [routerLink]="['/filmy/', film.id]" routerLinkActive="router-link-active">
+                  <i class="fa fa-film"></i>
+                </button>
+              </li>
+              <li class="list-inline-item">
+                <button class="btn btn-success btn-sm" (click)="openDialog()" >
+                  <i class="fa fa-shopping-basket"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-body p-0">
+            <p>Ocena filmu: {{film.rating}} <i class="fa fa-imdb"></i></p>
+            <p class="card-text text-center text-muted">{{film.price}}0 zł</p>
+          </div>
+
+        </div>
+      </div>
     </div>
+    </div>
+</div>
+<div class="blockquote-footer text-center">
+  <p>2020 Thesis Project. Autor: Michał Jelonek</p>
 </div>

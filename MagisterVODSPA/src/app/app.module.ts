@@ -43,6 +43,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BuyDialogComponent } from './film/buy-dialog/buy-dialog.component';
 import {MatButtonModule, MatCardModule, MatDialogModule, MatExpansionModule, MatFormFieldModule, MatTabsModule} from '@angular/material';
 import { FaqComponent } from './faq/faq.component';
+import {OrderModule} from 'ngx-order-pipe';
+import {FilterPipeModule} from 'ngx-filter-pipe';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -97,6 +99,8 @@ export function tokenGetter() {
     MatTabsModule,
     MatExpansionModule,
     MatFormFieldModule,
+    OrderModule,
+    FilterPipeModule,
 
   ],
   providers: [

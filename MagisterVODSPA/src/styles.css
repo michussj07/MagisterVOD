@@ -6,7 +6,7 @@
 @import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
 
 body {
-  background: url("../src/assets/background3.png");
+  background: url("../src/assets/background3.png") repeat-y;
 }
 
 .tab-panel {
