@@ -15,17 +15,6 @@ namespace MagisterVOD.API.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            // builder.Entity<Like>().HasKey(k => new { k.UserLikesId, k.UserIsLikedId });
-
-            // builder.Entity<Like>().HasOne(u => u.UserIsLiked)
-            //                       .WithMany(u => u.UserLikes)
-            //                       .HasForeignKey(u => u.UserIsLikedId)
-            //                       .OnDelete(DeleteBehavior.Restrict);
-
-            // builder.Entity<Like>().HasOne(u => u.UserLikes)
-            //                       .WithMany(u => u.UserIsLiked)
-            //                       .HasForeignKey(u => u.UserLikesId)
-            //                       .OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<Message>().HasOne(u => u.Sender)
                                      .WithMany(m => m.MessagesSent)

@@ -8,7 +8,7 @@ namespace MagisterVOD.API.Data
 {
     public interface IFilmRepository : IGenericRepository
     {
-        Task<PagedFilmList<Film>> GetFilms(FilmParams filmParams);
+        Task<IEnumerable<Film>> GetFilms();
         Task<Film> GetFilm(int id);
     }
 }

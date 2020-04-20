@@ -24,7 +24,6 @@ export class UserIstComponent implements OnInit {
               private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    // this.loadUsers();
     this.route.data.subscribe(data =>{
       this.users = data.users.result;
       this.pagination = data.users.pagination;

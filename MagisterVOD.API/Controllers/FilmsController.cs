@@ -27,19 +27,11 @@ namespace MagisterVOD.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetFilms([FromQuery]FilmParams filmParams)
+        public async Task<IActionResult> GetFilms()
         {   
-            // var filmFromRepo = await _repo.GetFilm(filmParams.FilmId);
-
-            // if (string.IsNullOrEmpty(filmParams.Genre))
-            // {
-            //     filmParams.Genre = filmFromRepo.Genre;
-            // }
-            var films = await _repo.GetFilms(filmParams);
+            var films = await _repo.GetFilms();
 
             var filmsToReturn = _mapper.Map<IEnumerable<FilmForListDto>>(films);
-
-            Response.AddFilmPagination(films.CurrentPages, films.PageSizes, films.TotalCounts, films.TotalPage);
 
             return Ok(filmsToReturn);
         }

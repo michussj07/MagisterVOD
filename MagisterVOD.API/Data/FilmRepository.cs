@@ -23,11 +23,11 @@ namespace MagisterVOD.API.Data
             return film;
         }
 
-        public async Task<PagedFilmList<Film>> GetFilms(FilmParams filmParams)
+        public async Task<IEnumerable<Film>> GetFilms()
         {
-            var films = _context.Films;
+            var films = await _context.Films.ToListAsync();
 
-         return await PagedFilmList<Film>.CreateListAsync(films, filmParams.PageNumbers, filmParams.PageSizes);
+            return films;
 
             
         }

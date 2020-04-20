@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/FilmParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/PagedFilmList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/PaginationFilmHeader.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -27,7 +42,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -40,16 +54,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="D:\Github_projects\MagisterVOD\MagisterVODSPA\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\film" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\_models" />
       <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\_resolvers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Github_projects\MagisterVOD\MagisterVODSPA\src\app\film" />
     </key>
   </component>
   <component name="RunManager">
@@ -131,16 +145,13 @@
       <workItem from="1587141581762" duration="1787000" />
       <workItem from="1587220099950" duration="11996000" />
       <workItem from="1587296720294" duration="14183000" />
+      <workItem from="1587398607279" duration="3683000" />
+      <workItem from="1587402747138" duration="1960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/node_modules/karma/config.tpl.js" />
-      </list>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -162,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1227" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583264775873" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584636601430">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587402223447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584636601430" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587402223447" />
     <state x="1170" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583439423830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,22 +185,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586103217226" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1587319166100">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1587402318852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587319166100" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1587319166100">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1587402318852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587319166100" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1587319166100">
+    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1587402318852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587319166100" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1587319166100">
+    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1587402318852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587319166100" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583697830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586100056532">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587398696230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586100056531" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587398696230" />
     <state x="1098" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583767065139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

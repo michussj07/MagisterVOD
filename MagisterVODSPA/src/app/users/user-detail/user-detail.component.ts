@@ -22,7 +22,6 @@ export class UserDetailComponent implements OnInit {
               private authService: AuthService) {}
 
   ngOnInit() {
-    // this.loadUser();
     this.route.data.subscribe(data => {
       this.user = data.user;
     });
@@ -34,14 +33,7 @@ export class UserDetailComponent implements OnInit {
   }
 
 
-/*  loadUser() {
-    this.userService.getUser(+this.route.snapshot.params.id)
-      .subscribe((user: User) => {
-        this.user = user;
-      }, error => {
-        this.alertify.error(error);
-      });
-  }*/
+
 
 
   selectTab(tabId: number) {
