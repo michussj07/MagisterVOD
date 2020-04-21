@@ -28,7 +28,7 @@ export class NavComponent implements OnInit {
     }, error => {
       this.alertifyService.error("Wystąpił błąd w logowaniu");
     }, () =>{
-      this.router.navigate(["/uzytkownicy"]);
+      this.router.navigate(["/homelog"]);
     });
 
   }

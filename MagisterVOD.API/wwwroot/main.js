@@ -2337,7 +2337,7 @@ var NavComponent = /** @class */ (function () {
         }, function (error) {
             _this.alertifyService.error("Wystąpił błąd w logowaniu");
         }, function () {
-            _this.router.navigate(["/uzytkownicy"]);
+            _this.router.navigate(["/homelog"]);
         });
     };
     NavComponent.prototype.loggedIn = function () {
@@ -2639,7 +2639,7 @@ var RegisterComponent = /** @class */ (function () {
                 _this.alertifyService.error(error);
             }, function () {
                 _this.authService.login(_this.user).subscribe(function () {
-                    _this.router.navigate(['/uzytkownicy']);
+                    _this.router.navigate(['/homelog']);
                 });
             });
         }

@@ -61,7 +61,7 @@ export class RegisterComponent implements OnInit {
         this.alertifyService.error(error);
       }, () =>{
         this.authService.login(this.user).subscribe( () => {
-          this.router.navigate(['/uzytkownicy']);
+          this.router.navigate(['/homelog']);
         });
       });
     }

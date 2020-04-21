@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/FilmsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/FilmRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/IFilmRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Data/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Data/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/FilmParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/PagedFilmList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/Helpers/PaginationFilmHeader.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/bin/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" afterDir="false" />
     </list>
@@ -46,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/_models" />
@@ -147,6 +133,7 @@
       <workItem from="1587296720294" duration="14183000" />
       <workItem from="1587398607279" duration="3683000" />
       <workItem from="1587402747138" duration="1960000" />
+      <workItem from="1587474766018" duration="797000" />
     </task>
     <servers />
   </component>
@@ -185,22 +172,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586103217226" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1587402318852">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1587475572059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1587402318852">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587475572059" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1587475572059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1587402318852">
+    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587475572059" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1587475572059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1587402318852">
+    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587475572059" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1587475572059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587402318852" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587475572059" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583697830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
