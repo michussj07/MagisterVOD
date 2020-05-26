@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/MagisterVOD.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/wwwroot/main.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +131,10 @@
       <workItem from="1587398607279" duration="3683000" />
       <workItem from="1587402747138" duration="1960000" />
       <workItem from="1587474766018" duration="797000" />
+      <workItem from="1589301395492" duration="285000" />
+      <workItem from="1589986972437" duration="3616000" />
+      <workItem from="1590489017850" duration="45000" />
+      <workItem from="1590489277705" duration="10250000" />
     </task>
     <servers />
   </component>

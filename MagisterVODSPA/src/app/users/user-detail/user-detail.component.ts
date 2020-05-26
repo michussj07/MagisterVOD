@@ -18,8 +18,7 @@ export class UserDetailComponent implements OnInit {
 
   constructor(private userService: UserService,
               private alertify: AlertifyService,
-              private route: ActivatedRoute,
-              private authService: AuthService) {}
+              private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.route.data.subscribe(data => {
@@ -32,13 +31,7 @@ export class UserDetailComponent implements OnInit {
     })
   }
 
-
-
-
-
   selectTab(tabId: number) {
     this.userTabs.tabs[tabId].active = true;
   }
-
-
 }
