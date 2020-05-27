@@ -16,8 +16,7 @@ export interface User {
   interests: string;
   movies: string;
   music: string;
-  /**Zakłdak Zdjęcia*/
+  /**Zakładka Zdjęcia*/
   photos: Photo[];
   photoUrl: string;
-
 }

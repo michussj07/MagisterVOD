@@ -67,7 +67,7 @@ export class PhotosComponent implements OnInit {
 
   setMainPhoto(photo: Photo) {
     this.userService.setMainPhoto(this.authService.decodedToken.nameid, photo.id).subscribe(() =>{
-      console.log('Sukces, zdjęcie sutawione jako główne');
+      console.log('Sukces, zdjęcie zostało ustawione jako główne');
       this.currentMain = this.photos.filter(p => p.isMain === true)[0];
       this.currentMain.isMain = false;
       photo.isMain = true;
@@ -80,7 +80,7 @@ export class PhotosComponent implements OnInit {
   }
 
   deletePhoto(id: number) {
-    this.alertify.confirm('Czy jesteś pewien, że chcesz ususnąć zdjęcie', () => {
+    this.alertify.confirm('Czy jesteś pewien, że chcesz usunąć zdjęcie', () => {
       this.userService.deletePhoto(this.authService.decodedToken.nameid, id)
         .subscribe(() => {
           this.photos.splice(this.photos.findIndex(p => p.id === id), 1);

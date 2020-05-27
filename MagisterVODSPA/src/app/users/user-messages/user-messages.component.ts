@@ -55,5 +55,4 @@ export class UserMessagesComponent implements OnInit {
         this.alertify.error(error);
       });
   }
-
 }

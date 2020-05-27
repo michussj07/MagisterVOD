@@ -11,6 +11,4 @@ export interface Message {
   dateRead: Date;
   dateSent: Date;
   messageContainer: string;
-
-
 }
