@@ -22,10 +22,10 @@ export class FilmDetailComponent implements OnInit {
               private dialog: MatDialog) {}
 
   ngOnInit() {
-    this.loadUser();
+    this.loadFilm();
   }
 
-  loadUser() {
+  loadFilm() {
     this.filmService.getFilm(+this.route.snapshot.params.id)
       .subscribe((film: Film) => {
         this.film = film;

@@ -1,10 +1,8 @@
 import { Injectable } from '@angular/core';
 import {environment} from '../../environments/environment';
-import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {Film} from '../_models/film';
 import {Observable} from 'rxjs';
-import {PaginationResult} from '../_models/pagination';
-import {map} from 'rxjs/operators';
 
 
 @Injectable({

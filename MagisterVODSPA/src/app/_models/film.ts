@@ -12,5 +12,4 @@ export interface Film {
   cast:string;
   created: Date;
   toDelete: Date;
-
 }

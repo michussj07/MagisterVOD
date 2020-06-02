@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Pagination, PaginationResult } from '../../_models/pagination';
 import { ActivatedRoute } from '@angular/router';
 import { AlertifyService } from '../../_services/alertify.service';
 import {FilmService} from '../../_services/film.service';

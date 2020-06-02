@@ -32,8 +32,8 @@ export const appRoutes: Routes = [
       { path: 'uzytkownicy/:id', component: UserDetailComponent, resolve:{user: UserDetailResolver}},
       { path: 'uzytkownik/edycja', component: UserEditComponent,
         canDeactivate: [PreventUnsavedChangesGuard], resolve:{user: UserEditResolver}},
-      { path: 'filmy', component: FilmsComponent, resolve:{user: FilmsResolver}},
-      { path: 'filmy/:id', component: FilmDetailComponent, resolve:{user: FilmsDetailResolver}},
+      { path: 'filmy', component: FilmsComponent, resolve:{film: FilmsResolver}},
+      { path: 'filmy/:id', component: FilmDetailComponent, resolve:{film: FilmsDetailResolver}},
       { path: 'wiadomosci', component: MessagesComponent, resolve:{messages: MessagesResolver}},
       { path: 'faq', component: FaqComponent},
     ]
