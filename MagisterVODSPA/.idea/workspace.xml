@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MagisterVOD.API/obj/Debug/netcoreapp2.2/MagisterVOD.API.csprojAssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="1c5986f7-d4fa-4091-b98c-10e7d254d19c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +136,8 @@
       <workItem from="1590592639638" duration="4289000" />
       <workItem from="1591112034720" duration="6960000" />
       <workItem from="1591195230780" duration="963000" />
+      <workItem from="1593536462091" duration="882000" />
+      <workItem from="1593539949562" duration="61000" />
     </task>
     <servers />
   </component>
@@ -149,30 +148,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="182" key="#Inspections" timestamp="1583257487202">
+    <state x="569" y="179" key="#Plugins" timestamp="1593540008634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583257487202" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582743077630">
+    <state x="569" y="179" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1593540008634" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593539666883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582743077630" />
-    <state x="1214" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583074659497">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1214" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583074659497" />
-    <state x="1227" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1583264775873">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1227" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583264775873" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587402223447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587402223447" />
-    <state x="1170" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583439423830">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1170" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583439423830" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593539666883" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586103217226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,69 +176,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587475572059" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583697830584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583697830584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583697830584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830584" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
-    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1583697830585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583697830585" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1587398696230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587398696230" />
-    <state x="1098" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583767065139">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1098" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583767065139" />
     <state x="410" y="130" width="873" height="719" key="find.popup" timestamp="1587232573269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="410" y="130" width="873" height="719" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587232573269" />
-    <state x="1303" y="453" width="348" height="298" key="org.angular.cli.generate" timestamp="1583074633589">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1303" y="453" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1583074633589" />
   </component>
 </project>
